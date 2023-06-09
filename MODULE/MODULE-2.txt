@@ -1,0 +1,38 @@
+Tops Technologies
+Assignments:-2
+
+Q-1 http stands for..?
+ans:-http(Hyper text transfer protocol).
+
+Q-2 https stands for..?
+ans:-https:(hyper text tranfer protocol secure).https is more secure than http 
+it is send data securly.
+
+Q-3 what is protocol..?
+ans:-protocol means rule of data.
+
+Q-4 What is SEO..?
+ans:-SEO(Search Engine Optimization).
+SEO means improving your website to increase more website view.
+
+Q-5 What is host..?
+ans:-any device that access to a network via user network,protocol is called host.
+
+Q-6 What is hosting..?
+ans:-web hosting is an online sevice that makes your website content accessible on the internet.and server to store all the website files and data.
+
+Q-7 What is URL..?
+ans:-(Uniform Resource Locator) used to locate a resource on the internet.
+
+Q-8 Clint side Scripting language..?
+ans:-clint side scripting language used in front end
+for Exampe:-HTML,CSS,JAVASCRIPT
+Does not need any server.
+
+Q-9 Server side Scripting language..?
+ans:-Server side scripting language used in Back end 
+for Example:-PHP,.net etc..
+Reqires server 
+
+
+
