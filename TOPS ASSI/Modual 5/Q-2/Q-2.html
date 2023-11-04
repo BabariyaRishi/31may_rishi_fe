@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-2</title>
+    <style>
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        p {
+            font-size: 30px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Q-2 How to embed audio and video in a webpage?</h1>
+    <p>
+        [1]Audio:- <br><br>
+        In HTML5, you can use the &lt;audio&gt; tag for embedding an audio file into your web page. Here's <br>
+        how: <br>
+        &lt;audio controls autoplay loop&gt; <br>
+        &lt;source src="horse.mp3" type="audio/mpeg" /&gt; <br>
+        &lt;/audio&gt; <br><br>
+        The "controls" attribute adds play/stop buttons, volume control, etc., while the "autoplay",
+        "loop" attributes make it start playing automatically when the page loads and keep looping until stopped
+        manually. <br><br>
+        EXAMPLE :- <br> <br>
+        <audio controls autoplay muted loop>
+            <source src="D:\TOPS PRA\Modual 5\Q-2\Pyaar Hai Toh Hai - Armaan Malik.mp3" type="audio/mp3">
+        </audio> <br><br>
+        [2]Video:- <br><br>
+        how: <br>
+        &lt;video width="400" height="300" controls autoplay loop&gt; <br>
+        &lt;source src="movie.mp4" type="video/mp4" /&gt; <br>
+        &lt;/video&gt; <br><br>
+        The "controls" attribute adds play/pause/volume controls, while the "loop" attribute makes it keep playing from
+        start when finished. <br><br>
+        Example : <br>
+        <video width="400" height="300" controls autoplay loop
+            poster="https://e0.pxfuel.com/wallpapers/538/614/desktop-wallpaper-bmw-750-bmw-760-thumbnail.jpg">
+            <source src="D:\TOPS PRA\Modual 5\Q-2\ICONIC PACK. (1).mp4">
+        </video>
+    </p>
+</body>
+
+</html>

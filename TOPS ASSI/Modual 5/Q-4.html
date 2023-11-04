@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-4</title>
+    <style>
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        p {
+            font-size: 30px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Q-4 Canvas and SVG tags</h1>
+    <p>
+        [1]Canvas:- <br>
+        => A canvas is an HTML element that provides a drawing area where you can perform the 2D graphics rendering on
+        it.<br>
+        => A Canvas is Raster based graphics. <br>
+        => It uses the HTML5 canvas element to draw shapes, text, images or other graphical objects on a web page.<br>
+        => It allows you to draw shapes using JavaScript <br>
+        Example:- <br>
+        <canvas id="myCanvas" width="400" height="200"></canvas>
+        <script>
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "red";
+            ctx.fillRect(50, 50, 200, 100);
+        </script>
+        <br><br>
+        [2]SVG:- <br>
+        => Svg is vactor based graphics. <br>
+        => It allows you to create vector images.<br>
+        => svg stands for scalable vactor graphics. <br>
+        Example:- <br>
+        <svg width="200" height="200" viewBox="-100 -100 200 200">
+            <circle cx="0" cy="20" r="70" fill="skyblue" />
+        </svg>
+
+    </p>
+</body>
+
+</html>
