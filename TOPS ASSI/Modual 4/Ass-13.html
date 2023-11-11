@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ass-13</title>
+    <link rel="stylesheet" href="13.css">
+    <style>
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        p {
+            font-size: 30px;
+            background-color: aqua;
+        }
+
+        .inline {
+            font-size: 25px;
+            background-color: aqua;
+        }
+
+        .Internal {
+            font-size: 30px;
+            background-color: aqua;
+        }
+
+        h4 {
+            color: red;
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Q-13 What are the ways to integrate CSS as a web page?</h1>
+    <br>
+    <p>
+        <b>Ans:-</b> <br>
+        =>>There are few ways to integrate CSS (Cascading Style Sheets) into a web page. CSS is used to control the
+        presentation and layout of HTML content on a web page. <br><br>
+
+        <b>1.Inline CSS:-</b> <br>
+        =>Inline CSS is applied directly within an HTML element using the style attribute. This method is useful for
+        making quick styling changes to specific elements. <br><br>
+        <b>Ex:-</b>
+    <div class="inline">
+        &lt;h3 style="color: white; font-size: 30px; background-color: black;"&gt; <br>
+        This is a blue text with a font size of 30px. <br>
+        &lt;/h3&gt;
+    </div>
+    <h3 style="color: white; font-size: 30px; background-color: black;">
+        This is a font size of 30px.
+    </h3> <br><br>
+    <div class="Internal">
+        <b>2.Internal CSS (Embedded CSS):-</b> <br>
+        =>Internal CSS is defined within the HTML document itself, typically in the &lt;style&gt; element within the
+        document's &lt;head&gt; section. It applies styles to the entire page or specific elements using CSS selectors.
+        <br><br>
+        <b>Ex:-</b> <br>
+        &lt;head&gt; <br>
+        &lt;style&gt; <br>
+        .Internal{ <br>
+        font-size: 30px; <br>
+        background-color: aqua; <br>
+        } <br>
+        h4{ <br>
+        color: red;<br>
+        font-size: 35px;<br>
+        }<br>
+        &lt;/style&gt; <br>
+        &lt;/head&gt; <br>
+        <h4>This is a font size of 35px.</h4> <br>
+    </div> <br>
+
+    <div class="Ex1">
+    <b>3.External CSS:-</b> <br>
+    =>>External CSS is the most common and recommended method for applying styles to web pages. Styles are defined in a
+    separate .css file and then linked to the HTML document using the &lt;link&gt; element within the &lt;head&gt;
+    section. <br>
+
+        &lt;html&gt; <br>
+        
+        &lt;head&gt; <br>
+        &lt;link rel="stylesheet" type="text/css" href="13.css"&gt; <br>
+        &lt;/head&gt;<br>
+        
+        &lt;body&gt; <br> <br>
+        <h5>This is a font size of 32px.</h5> <br>
+        &lt;h5&gt;This is a font size of 32px.&lt;/h5&gt; <br>
+        &lt;/body&gt; <br>
+        
+        &lt;html&gt;<br>
+    </div>
+    <div class="External">
+    *{ <br>
+        margin: 0; <br>
+        padding: 0; <br>
+    } <br>
+    h5{ <br>
+        font-size: 32px; <br>
+        background-color: brown; <br>
+    }
+</div>
+
+    </p>
+</body>
+
+</html>

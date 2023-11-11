@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ass-8</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        p {
+            font-size: 30px;
+            background-color: aqua;
+        }
+        .container {
+            width: 300px;
+            height: 200px;
+            background-image: url('https://www.w3schools.com/css/img_5terre.jpg');
+            background-position: 50%;
+        }
+        pre{
+            font-size: 30px;
+            background-color:aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Q-8 What is the use of the background-position property?</h1>
+    <hr>
+    <p>
+        <b>Ans:-</b> <br><br>
+        The background-position property in HTML and CSS is used to specify the starting position of a background image
+        within its containing element. <br><br>
+        ->The positioning properties allow you to place an image in a specific location within its container by
+        specifying values for top, bottom, left and right. <br><br>
+        ->The background position property specifies where an element's background image should be placed relative to
+        its box. <br><br>
+        ->The background position property specifies where a background image should be placed within its
+        container.<br><br>
+        ->There are Two Main background position <br><br>
+        1.->Relative <br><br>
+        2.->Absolute <br><br>
+        =>Keyword Values:- <br>
+        left, center, and right for horizontal position.<br>
+        top, center, and bottom for vertical position.<br> <br>
+        =>Length Values:- <br>
+        You can use specific length units like pixels (px), percentages (%), or any other valid length unit to define
+        the position. For example, 10px 20px specifies a horizontal position of 10 pixels from the left and a vertical
+        position of 20 pixels from the top. <br><br>
+        =>Percentage Values:
+        You can use percentages to specify the position relative to the width or height of the containing element. For
+        example, 50% 25% means the center horizontally and 25% from the top vertically. <br><br>
+        &lt;div class="container"&gt; <br>
+            &lt;h3&gt;This is a Background position&lt;/h3&gt; <br>
+        &lt;/div&gt;
+<pre>
+.container {
+width: 300px;
+height: 200px;
+background-image: url('https://www.w3schools.com/css/img_5terre.jpg');
+background-position: 50%;
+}    
+</pre>             
+    <div class="container">
+        <h3>This is a Background position</h3>
+    </div>
+    </p>
+</body>
+
+</html>

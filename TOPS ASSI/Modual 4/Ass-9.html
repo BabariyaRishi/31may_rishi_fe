@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ass-9</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        p{
+            font-size: 30px;
+            background-color: aqua;
+        }
+        .bi{
+            height: 500px;
+            width: 500px;
+            background-image: url('https://picwish.com/wp-content/uploads/2023/09/cover-remove-noise-from-image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .bl{
+            height: 700px;
+            width: 700px;
+            background-image: url('https://picwish.com/wp-content/uploads/2023/09/cover-remove-noise-from-image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+        }
+        h2{
+            font-size: 30px;
+        }
+        pre{
+            font-size: 30px;
+            background-color: aqua;
+        }
+        .test{
+            background-color: aqua;
+            font-size: 30px;
+        }
+        .test2{
+            background-color: aqua;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Q-9 Which property controls the image scroll in the background?</h1>
+    <hr>
+    <p>
+        <b>Ans:-</b> <br><br>
+        ->The property that controls the image scroll behavior in the background of a web page is the
+        background-attachment property in CSS. <br><br>
+        ->This property allows you to specify whether the background image should scroll with the content or remain
+        fixed in place as the user scrolls. <br><br>
+        ->Here are the possible values for the background-attachment property: <br><br>
+        <b>1.scroll:-</b> <br>
+        =>This is the default value. The background image scrolls along with the content as the user scrolls the
+        webpage. <br><br>
+        <b>2.fixed:-</b> <br>
+        => The background image remains fixed in place, so it doesn't move as the user scrolls. This creates a parallax
+        effect where the background image appears stationary while the content scrolls over it. <br><br>
+        <b>Ex:-</b> <br> <br>
+        <h2>Code:-</h2>
+        <div class="test">
+            &lt;div class="bi"&gt; <br>
+            &lt;h3&gt;This is a background-attachment fixed properties&lt;/h3&gt; <br>
+            &lt;/div&gt;\
+        </div> 
+        <br>
+        <pre>
+.bi{ 
+height: 500px; 
+width: 500px; 
+background-image: url('https://picwish.com/wp-content/uploads/2023/09/cover-remove-
+noise-from-image.jpg');
+background-repeat: no-repeat; 
+background-size: cover; 
+background-attachment: fixed; 
+}
+        </pre> <br><br>
+        <div class="bi">
+            <h3>This is a background-attachment fixed properties</h3>
+        </div> <br><br>
+<div class="test2">
+&lt;div class="bl"&gt; <br>
+&lt;h3&gt;This is a background-attachment scroll properties&lt;h3&gt; <br>
+&lt;/div&gt; 
+</div> 
+<br><br> 
+<pre>
+.bl{
+height: 500px;
+width: 500px;
+background-image: url('https://picwish.com/wp-content/uploads/2023/09/cover-remove-
+noise-from-image.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+}   
+</pre>
+        <div class="bl">
+            <h3>This is the background-attachment scroll properties</h3>
+        </div>
+
+    </p>
+</body>
+
+</html>
