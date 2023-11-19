@@ -1,0 +1,278 @@
+@media(max-width: 500px) {
+    body {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        width: 270vw;
+        /* border: 1px solid red; */
+    }
+    header{
+        width: 270vw;
+    }
+    .info{
+        width: 270vw;
+        background-color: black;
+    }
+    .info p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .LOGO{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .List ul li{
+        display: block;
+        /* padding: 10px; */
+        /* background: #F6F3FC; */
+        position: relative;
+    }
+    .List .fa-bars{
+        display: block;
+        position: absolute;
+        left: 250vw;
+        top: 25px;
+    }
+    .fa-angle-down{
+        position: absolute;
+        top: 170px;
+        left: 100px;
+    }
+    ul{
+        font-size: 25px;
+        line-height: 45px;
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 999px;
+        width: 200px;
+        height: 392px;
+        background-color: black;
+    }
+    .List:hover ul{
+        display: block;
+    }
+    .dis h4{
+        font-size: 25px;
+    }
+    .dis p{
+        font-size: 20px;
+    }
+    .dis button{
+        height: 45px;
+        font-size: x-large;
+    }
+    .card{
+        position: relative;
+        bottom: 80px;
+    }
+    .card .card1{
+        font-size: 22px;
+    }
+    .card .card2{
+        font-size: 22px;
+    }
+    .card .card3{
+        font-size: 22px;
+    }
+    .upmeeting img{
+        position: relative;
+        bottom: 225px;
+        flex-wrap: wrap;
+    }
+    .uphead h1{
+        position: absolute;
+        left: 450px;
+    }
+    .uphead h1::after{
+        content: "";
+        position: absolute;
+        right: -100px;
+        width: 700px;
+        border: 1px solid white;
+    }
+    .w1{
+        height: 500px;
+    }
+    .w1 h2{
+        position: absolute;
+        top: 1180px;
+        font-size: 25px;
+    }
+    .w1{
+        font-size: 25px;
+    }
+    .w1 p{
+        line-height: 55px;
+    }
+    .w1::after{
+        content: "";
+        border: 1px solid black;
+        position: absolute;
+        top: 218vh;
+        width: 230px;
+    }
+    .w1 button{
+        height: 40px;
+        font-size: 18px;
+    }
+    .subcard{
+        position: relative;
+        top: -2220px;
+        right: 700px;
+    } 
+    .subcard .c-1{
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .c-1 button{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .c-1 h3{
+        width: 500px;
+        position: absolute;
+        left: 80px;
+        top: 230px;
+    }
+    .c-1 p{
+        position: absolute;
+        bottom: 20px;
+        width: 280px;
+        left: 25px;
+    }
+    .subcard .c-2{
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .c-2 button{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .c-2 h3{
+        font-size: 25px;
+        width: 500px;
+        position: absolute;
+        left: 50px;
+        top: 230px;
+    }
+    .c-2 p{
+        position: absolute;
+        bottom: 20px;
+        width: 280px;
+        left: 25px;
+    }
+    .subcard2{
+        position: absolute;
+        top: 230px;
+        right: 270px;
+
+    }
+    .subcard2 .c-3{
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .c-3 button{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .c-3 h3{
+        font-size: 25px;
+        width: 500px;
+        position: absolute;
+        left: 50px;
+        top: 230px;
+    }
+    .c-3 p{
+        position: absolute;
+        bottom: 20px;
+        width: 280px;
+        left: 25px;
+    }
+    .subcard2 .c-4{
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .c-4 button{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .c-4 h3{
+        font-size: 25px;
+        width: 500px;
+        position: absolute;
+        left: 50px;
+        top: 230px;
+    }
+    .c-4 p{
+        position: absolute;
+        bottom: 20px;
+        width: 280px;
+        left: 25px;
+    }
+    .subcard3{
+        background: url('file:///D:/templatemo_569_edu_meeting/assets/images/apply-bg.jpg');
+        position: relative;
+        bottom: 230px;
+    }
+    .content p{
+        width:570px;
+        font-size: 20px;
+    }
+    .content button{
+        position: absolute;
+        bottom: 10px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .content2 p{
+        width:570px;
+        font-size: 20px;
+    }
+    .content2 button{
+        position: absolute;
+        bottom: 10px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .subcard4 .content3{
+        position: absolute;
+        top: 50px;
+        font-weight: bold;
+        font-size: 20px;
+        height: 700px;
+    }
+    .courses{
+        position: relative;
+        bottom: 235px;
+    }
+    .cocard .cocard2{
+        position: absolute;
+        left: 360px;
+    }
+    .cocard .cocard3{
+        position: absolute;
+        left: 660px;
+    }
+    .cocard .cocard4{
+        position: absolute;
+        left: 960px;
+    }
+    .backi1{
+        position: relative;
+        bottom: 240px;
+    }
+    .subinput{
+        position: relative;
+        bottom: 240px;
+    }
+    input{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .in button{
+        height: 45px;
+        font-size: 20px;
+    }
+
+}
