@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-6</title>
+    <style>
+          h1 {
+            font-size: 40px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        p {
+            font-size: 30px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Q-6 Write the code for adding new elements dynamically?</h1>
+    <hr>
+    <p>
+        &lt;div id="container"&gt; <br>
+        &lt;script&gt; <br>
+        function addNewElement() { <br>
+            var newElement = document.createElement('p'); <br>
+            newElement.textContent = 'This is a new paragraph!'; <br>
+            var container = document.getElementById('container'); <br>
+            container.appendChild(newElement); <br>
+        } <br>
+        window.onload = addNewElement; <br>
+        &lt;/script&gt; <br>
+    </p>
+    <div id="container"></div>
+    <script>
+        function addNewElement() {
+            var newElement = document.createElement('p');
+            newElement.textContent = 'This is a new paragraph!';
+            var container = document.getElementById('container');
+            container.appendChild(newElement);
+        }
+        window.onload = addNewElement;
+    </script>
+</body>
+</html>
