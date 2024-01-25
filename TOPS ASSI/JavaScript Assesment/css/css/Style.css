@@ -1,0 +1,62 @@
+body {
+    background-color: #F1F5F9;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #0F172A;
+}
+
+.container {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #069191;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 12px;
+    background-color: #FDBA74;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.task-list div {
+    position: relative;
+    border: 0.5px solid #0F172A;
+    background-color: #F1F5F9;
+    color: #000;
+    font-size: 16px;
+    padding: 7px;
+    text-align: left;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.task-list div i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #FF6961;
+}
