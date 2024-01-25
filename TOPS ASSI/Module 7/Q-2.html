@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Q-2</title>
+    <style>
+         h1 {
+            font-size: 40px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        p {
+            font-size: 30px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Q-2 How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery, JQuery Animation?</h1>
+    <hr>
+    <p>
+        <!-- Add Css -->
+        <b>Add Css:-</b> <br>
+        &lt;div id="myElement"&gt;Hello, World!&lt;/div&gt; <br>
+
+        &lt;script&gt; <br>
+
+        $('#myElement').css({ <br>
+        'color': 'blue', <br>
+        'font-size': '20px', <br>
+        'background-color': 'lightgray' <br>
+    }); <br>
+    &lt;script&gt; <br><br>
+         <!-- Add And Remove Class -->
+        <b>Add & Remove Class:-</b> <br>
+        &lt;style&gt; <br>
+        .highlight { <br>
+        background-color: yellow; <br>
+        } <br>
+        &lt;/style&gt; <br>
+
+        &lt;div id="myElement"&gt;Hello, World!&lt;/div&gt; <br>
+        &lt;script&gt; <br>
+        $('#myElement').addClass('highlight'); <br>
+
+        setTimeout(function() { <br>
+            $('#myElement').removeClass('highlight'); <br>
+        }, 2000); <br>
+        &lt;script&gt; <br>
+        <br>
+        <!-- How To Add An Animation In Jquery -->
+        <b>Animation:-</b> <br>
+        &lt;style&gt; <br>
+        #animatedElement { <br>
+        width: 100px; <br>
+        height: 100px; <br>
+        background-color: lightblue; <br>
+        } <br>
+        &lt;/style&gt; <br>
+
+        &lt;div id="animatedElement"&gt;&lt;/div&gt; <br>
+
+        &lt;script&gt; <br>
+        $('#animatedElement').animate({ <br>
+        width: '200px', <br>
+        height: '200px', <br>
+        opacity: 0.5, <br>
+        }, 1000); <br>
+        &lt;/script&gt; <br>
+    </p>
+</body>
+
+</html>

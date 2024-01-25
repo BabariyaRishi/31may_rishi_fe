@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Slider</title>
+  <style>
+    .slider-container {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slider {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      min-width: 100%;
+      box-sizing: border-box;
+    }
+
+    /* Optional: Add styling for navigation buttons */
+    .slider-nav {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .slider-nav button {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .slider .slide img {
+      width: 100%;
+      height: auto; /* Use auto to maintain the aspect ratio */
+    }
+  </style>
+</head>
+<body>
+
+<div class="slider-container">
+  <div class="slider">
+    <div class="slide"><img src="https://www.imageshine.in/uploads/gallery/nature-desktop-wallpaper-hd-free-download.jpg" alt="Slide 1"></div>
+    <div class="slide"><img src="https://wallpapercave.com/wp/4cQGz9o.jpg" alt="Slide 2"></div>
+    <div class="slide"><img src="https://wallpapercave.com/wp/bq96BaV.jpg" alt="Slide 3"></div>
+  </div>
+  
+  <div class="slider-nav">
+    <button onclick="prevSlide()">Previous</button>
+    <button onclick="nextSlide()">Next</button>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  function nextSlide() {
+    $('.slider').css('transform', 'translateX(-100%)').append($('.slide:first')).css('transform', 'translateX(0)');
+  }
+
+  function prevSlide() {
+    $('.slider').css('transform', 'translateX(-100%)').prepend($('.slide:last')).css('transform', 'translateX(0)');
+  }
+
+  setInterval(nextSlide, 3000); 
+</script>
+
+</body>
+</html>
