@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-11</title>
+    <style>
+          h1 {
+            font-size: 40px;
+            text-align: center;
+            background-color: coral;
+        }
+
+        p {
+            font-size: 30px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Q-11 What are all the looping structures in JavaScript?</h1>
+    <hr>
+    <p>
+        <b>Types Of Loop</b> <br>
+        1:-For Loop:- <br>
+        =>Syntax:- <br>
+        for (initialization; condition; increment/decrement)<br>
+        { <br>
+            //code <br>
+        } <br>
+        =>>Example:- <br>
+        for (let i = 0; i < 5; i++) <br>
+        { <br>
+            console.log(i); <br>
+        } <br><br>
+
+        2:-while Loop:- <br>
+        =>Syntax:- <br>
+        while(condition)
+        { <br>
+            //code <br>
+        }<br>
+        =>>Example:- <br>
+        let i = 0; <br>
+        while(i < 5) <br>
+        { <br>
+            console.log(i); <br>
+            i++; <br>
+        }<br><br>
+
+        3:-Do While Loop:- <br>
+        =>Syntax:- <br>
+        do { <br>
+            //code <br>
+        } while(condition)<br>
+        =>>Example:- <br>
+        let i = 0; <br>
+        do { <br>
+            console.log(i); <br>
+            i++; <br>
+        } while(i < 5)<br><br>
+
+        4:-For in:- <br>
+        =>Syntax:- <br>
+        for(variable in object) <br>
+        { <br>
+            //code <br>
+        }<br>
+        =>>Example:- <br>
+        let person = {name:"John", age:30, city:"New York"  }; <br>
+        for(let key in person) <br>
+        { <br>
+            console.log(`${key}: ${person[key]}`); <br>
+        }<br><br>
+
+        5:-For of:- <br>
+        =>Syntax:- <br>
+        for(variable of iterable) <br>
+        { <br>
+            //code <br>
+        }<br>
+        =>>Example:- <br>   
+        let arr = [10, 20, 30, 40, 50]; <br>
+        for(let value of arr) <br>
+        { <br>
+            console.log(value); <br>
+        }<br>
+     </p>
+</body>
+</html>
